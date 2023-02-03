@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import './Contact.css'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import Logo from '../images/C-logo.png'
+import Logo1 from '../images/C-logo-new.png'
 
 function Contact() {
     const refForm = useRef()
@@ -86,11 +86,11 @@ function Contact() {
                                 </p>
                             </ul>
                         </form>
-                        <img className="logo" src={Logo} alt="developer" />
+                        {/* <img className="logo" src={Logo} alt="developer" /> */}
                     </div>
                 </div>
             </div>
-            <img className="logo" src={Logo} alt="developer" />
+            <img className="logo-new" src={Logo1} alt="developer" />
 
             {/* <button style={{ color: 'blue' }}>alerttt</button> */}
         </>

@@ -1,0 +1,36 @@
+.about{
+    
+    position: relative;
+    margin-top: 15%;
+    margin-left: 27%;
+    box-shadow:-4px -5px rgba(128, 128, 128, 0.918)  ;
+
+    
+
+    border: 1.5px solid rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+    padding: 40px 40px;
+}
+
+.photo{
+    margin-left: 37%;
+    width: 25%;
+    
+    border-radius: 100%;
+}
+@media all and (max-width:500px) {
+    .home {
+        margin-top: 30%;
+        margin-left: 15%;
+        width: 70%;
+        
+    }
+    .photo{
+        width: 40%;
+        height: 40%;
+        margin-left: 33%;
+        
+    }
+}

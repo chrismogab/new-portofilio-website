@@ -5,8 +5,6 @@
     margin-left: 180px;
     color: blue;
     
-    
-  
 }
 ul{
     padding: 0;
@@ -44,11 +42,15 @@ input[type='email'] {
     color: black;
     padding: 0 20px;
     box-sizing: border-box;
-   
 
     
+   
+
+
 }
 textarea{
+   
+
     width: 100%;
     border: 0;
     background: rgba(128, 128, 128, 0.274);
@@ -58,6 +60,7 @@ textarea{
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+
 
 } 
 .flat-button{
@@ -83,32 +86,32 @@ color: #1c3beb;
 text-transform: uppercase;
 
 }
-.logo{
+.logo-new{
     
     position: relative;
-    width: 300%;
-    height: 300%;
-    margin-top: -500px;
-    margin-left: 200px;
+    width: 25%;
+    height: 25%;
+    margin-top: -25%;
+    margin-left: 50%;
 }
-@media all and (max-width:500px) {
+@media all and (max-width:1000px) {
     .contact-form{
         position: absolute;
         margin-left: 20px;
         width: 80%;
         margin-top: 220px;
-        padding-top: 100px;
+        padding-top: 50%;
         /* opacity: 0; */
         
     }
 
-    .logo{
+    .logo-new{
         position: absolute;
-        height: 170%;
-        width: 170%;
-        margin-top: -700px;
-        margin-left:-120px;
-        padding-bottom: 550px;
+        height: 30%;
+        width: 30%;
+        margin-top: 30%;
+        margin-left: 28%;
+       
         float: right;
 
     }

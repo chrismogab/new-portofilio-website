@@ -1,15 +1,31 @@
 .navbar{
     position: fixed;
-    z-index: 1;
     top: 0;
-    background-color: #1c3beb !important;
+    background-color: #070577e0 !important;
     height: 80px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
+    z-index: 1;
+    padding: 20px
 
 }
+.game-button{
+    position: relative;
+/* 
+margin-left: 200px; */
+
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+        color: white;
+        border: 2px solid white;
+
+    padding: 10px 10px;
+    cursor: pointer;
+
+  }
 .menu-bars{
     margin-left: 2rem;
     font-size: 2rem;
@@ -19,7 +35,7 @@
     position: fixed;
     z-index: 1;
     /* z index la tghate l content tahta finally */
-    background-color: #1c3beb ;
+    background-color: #070577e0 ;
 
     width: 250px;
     height: 100vh;
@@ -60,9 +76,19 @@ align-items: center;
 padding: 0 16px;
 border-radius: 4px;
 }
+.nav-text img {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+}
+
 
 .nav-text a:hover {
-    background-color: rgb(59, 201, 90);
+    background-color: rgb(61, 31, 194);
+}
+.nav-text img:hover{
+    background-color: transparent;
+    z-index: 1;
 }
 .nav-menu-items {
     width: 100%;
@@ -70,7 +96,7 @@ border-radius: 4px;
 }
 
 .navbar-toggle {
-    background-color: #1c3beb !important;
+    background-color: #070577e0 !important;
     width: 100%;
     height: 80px;
     display: flex;
@@ -83,6 +109,27 @@ span {
     margin-left: 16px;
 }
 
+.logo{
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 10%;
+
+    height: 10%;
+    width: 50% ;
+}
+.game{
+    position: relative;
+    margin-top: 20%;
+    margin-left: 50%;
+    font-size: 20px;
+    background-color: transparent;
+    color: red;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+
+  }
+
 @media all and (max-width:500px) {
-  
+
 }

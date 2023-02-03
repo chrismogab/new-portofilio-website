@@ -1,0 +1,30 @@
+body{
+  background-color: white;
+}
+
+.home {
+  position: relative;
+  margin-top: -10.7%;
+
+    height: 2000px;
+    width: 100%;
+    background-image: url(C:\Users\chris\OneDrive\Desktop\REACT\tesleye\tesleyux\src\images\web-dev-image.png.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+
+  }
+ 
+  @media all and (max-width: 500px) {
+    .home {
+  background-size: 100%;
+margin-left: 0;
+
+margin-top: 80px;
+     /* height: 500px; */
+     width:100%;
+    
+    }
+
+  }
+  

@@ -6,6 +6,7 @@ import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import { NavBarData } from './NavBarData'
 import { IconContext } from 'react-icons'
+import Logo1 from '../images/C-logo-new.png'
 
 //hay kaan shortcut badel icon l 3ade w baaden bethot faicons.lbadakyeh
 
@@ -22,6 +23,9 @@ function Navbar() {
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
+                    <Link to="/Challenge">
+                        <button className="game-button">Challenge Me</button>
+                    </Link>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className="nav-menu-items" onClick={showSidebar}>
@@ -30,6 +34,9 @@ function Navbar() {
                                 <AiIcons.AiOutlineClose />
                             </Link>
                         </li>
+                        <Link to="/">
+                            <img className="logo" src={Logo1} alt="logo" />
+                        </Link>
                         {NavBarData.map((item, index) => {
                             return (
                                 <li key={index} className={item.className}>
