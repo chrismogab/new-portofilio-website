@@ -1,0 +1,110 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    /* background-color: #070577e0 !important; */
+    height: 80px;
+    /* background-color: rgb(28, 27, 27); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+}
+.project-main {
+    height: auto;
+    position: relative;
+    top: 100px;
+    padding: 0 10px; /* add padding to both sides of the container */
+    opacity: 0;
+    animation: fadeInUp 1.5s 1.5s;
+    animation-fill-mode: forwards;
+    font-size: 22px;
+}
+.fifth-div,
+.third-div,
+.first-div {
+    display: flex;
+    justify-content: space-between;
+}
+.movie-1,
+.token-1,
+.real-time-1 {
+    width: 50%;
+    height: auto;
+    padding-right: 10px;
+    /* padding: 20px; */
+}
+.movie-2,
+.token-2,
+.real-time-2 {
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+    /* padding: 20px; */
+}
+.sixth-div,
+.fourth-div,
+.second-div {
+    display: flex;
+}
+.movie-3,
+.token-3,
+.real-time-3 {
+    width: 50%;
+    height: auto;
+    padding: 10px 10px 10px 0;
+}
+.parag-3,
+.parag-2,
+.parag-1 {
+    padding-left: 30px;
+    color: whitesmoke;
+    padding-top: 30px;
+    width: 100%;
+    text-decoration: dotted;
+    list-style-type: disc;
+}
+@media all and (max-width: 678px) {
+    .first-div,
+    .fifth-div,
+    .third-div {
+        display: inline-block;
+        padding: 0 0 10px 0;
+    }
+    .movie-1,
+    .token-1,
+    .real-time-1 {
+        width: 100%;
+        padding: 0 0 10px 0;
+    }
+    .movie-2,
+    .token-2,
+    .real-time-2 {
+        width: 100%;
+        padding: 0 0 10px 0;
+    }
+    .sixth-div,
+    .fourth-div,
+    .second-div {
+        position: relative;
+        margin-top: -4%;
+        display: inline-block;
+        padding: 0 0 10px 0;
+    }
+    .movie-3,
+    .token-3,
+    .real-time-3 {
+        width: 100%;
+        padding: 0 10px 10px 0;
+        /* padding-right: 10px; */
+    }
+    .movie-3 {
+        padding-right: 17px;
+    }
+    .parag-3,
+    .parag-2,
+    .parag-1 {
+        width: 100%;
+    }
+}

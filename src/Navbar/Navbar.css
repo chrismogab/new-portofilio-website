@@ -1,61 +1,61 @@
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
-    background-color: #070577e0 !important;
+    /* background-color: #070577e0 !important; */
     height: 80px;
+    /* background-color: rgb(78, 76, 76); */
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     z-index: 1;
-    padding: 20px
-
+    padding: 20px;
 }
-.game-button{
+.game-button {
     position: relative;
-/* 
+    /* 
 margin-left: 200px; */
 
     font-size: 20px;
     border-radius: 30px;
     background-color: transparent;
-        color: white;
-        border: 2px solid white;
+    color: white;
+    border: 2px solid white;
 
     padding: 10px 10px;
     cursor: pointer;
-
-  }
-.menu-bars{
+}
+.game-button:hover {
+    background-color: whitesmoke;
+    color: rgb(39, 38, 38);
+}
+.menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
 }
-.nav-menu{
+.nav-menu {
     position: fixed;
     z-index: 1;
     /* z index la tghate l content tahta finally */
-    background-color: #070577e0 ;
+    background-color: rgb(39, 38, 38);
 
     width: 250px;
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+
     top: 0;
     left: -100%;
     transition: 850ms;
-
 }
 .nav-menu.active {
-
     left: 0;
     transition: 350ms;
     padding: auto;
-   
 }
 
-.nav-text{
+.nav-text {
     position: relative;
     top: 20%;
     display: flex;
@@ -66,15 +66,15 @@ margin-left: 200px; */
     height: 80px;
 }
 .nav-text a {
-text-decoration: none;
-color: aliceblue;
-font-size: 18px;
-width: 95%;
-height: 100%;
-display:flex;
-align-items: center;
-padding: 0 16px;
-border-radius: 4px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
 }
 .nav-text img {
     position: absolute;
@@ -82,21 +82,20 @@ border-radius: 4px;
     height: 100%;
 }
 
-
 .nav-text a:hover {
-    background-color: rgb(61, 31, 194);
+    /* background-color: rgb(61, 31, 194); */
+    background-color: rgb(72, 70, 70);
 }
-.nav-text img:hover{
+.nav-text img:hover {
     background-color: transparent;
     z-index: 1;
 }
 .nav-menu-items {
     width: 100%;
-
 }
 
 .navbar-toggle {
-    background-color: #070577e0 !important;
+    background-color: rgb(39, 38, 38) !important;
     width: 100%;
     height: 80px;
     display: flex;
@@ -109,15 +108,15 @@ span {
     margin-left: 16px;
 }
 
-.logo{
+.logo {
     position: absolute;
     margin-left: 16%;
     margin-top: 10%;
 
     height: 10%;
-    width: 50% ;
+    width: 50%;
 }
-.game{
+.game {
     position: relative;
     margin-top: 20%;
     margin-left: 50%;
@@ -127,9 +126,10 @@ span {
     border-radius: 10px;
     padding: 10px 10px;
     cursor: pointer;
+}
 
-  }
-
-@media all and (max-width:500px) {
-
+@media all and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
 }

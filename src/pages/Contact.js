@@ -1,11 +1,24 @@
+//hon
 import React from 'react'
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
+
 import './Contact.css'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import Logo1 from '../images/C-logo-new.png'
+import AnimatedLetters from '../AnimatedLetters/Animated'
+import { IconContext } from 'react-icons'
 
 function Contact() {
+    const [letterClass, setLetterClass] = useState('text-animate')
+    const contactMe = ['C', 'O', 'N', 'T', 'A', 'C', 'T', '', 'M', 'E']
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 3000)
+    }, [])
     const refForm = useRef()
 
     const sendEmail = (e) => {
@@ -29,10 +42,19 @@ function Contact() {
     }
     return (
         <>
-            <div className="container contact-page">
+            <div className="contact-page">
                 <div className="text-zone">
+                    <div className="contact-letters">
+                        <h1 className="contact-word">
+                            <AnimatedLetters
+                                letterClass={letterClass}
+                                strArray={contactMe}
+                                idx={15}
+                            />
+                        </h1>
+                    </div>
                     <div className="contact-form">
-                        <h1 className="contact-me">Contact ME</h1>
+                        {/* <h1 className="contact-me">Contact ME</h1> */}
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <li className="half">
@@ -75,14 +97,11 @@ function Contact() {
                                     />
                                 </li>
                                 <p
-                                // style={{
-                                //     position: 'absolute',
-                                //     marginTop: '310px',
-                                //     marginLeft: '10px',
-                                //     color: '#ffd700',
-                                // }}
+                                    style={{
+                                        fontSize: '20px',
+                                    }}
                                 >
-                                    +1 (832) 732 3254
+                                    +1 (832)-732-3254
                                 </p>
                             </ul>
                         </form>
@@ -93,6 +112,7 @@ function Contact() {
             <img className="logo-new" src={Logo1} alt="developer" />
 
             {/* <button style={{ color: 'blue' }}>alerttt</button> */}
+            <Loader type="ball-grid-pulse" />
         </>
     )
 }

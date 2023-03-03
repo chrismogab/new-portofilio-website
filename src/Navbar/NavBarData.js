@@ -18,9 +18,15 @@ export const NavBarData = [
         className: 'nav-text',
     },
     {
-        title: 'About',
-        path: '/About',
+        title: 'Portfolio',
+        path: '/Portfolio',
         icon: <FaIcons.FaUser />,
+        className: 'nav-text',
+    },
+    {
+        title: 'Projects',
+        path: '/Projects',
+        icon: <FaIcons.FaEnvelope />,
         className: 'nav-text',
     },
     {
