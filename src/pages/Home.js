@@ -19,8 +19,8 @@ import {
     FaDiscord,
     FaHtml5,
     FaReact,
-    faJsSquare,
-    faCss3,
+    FaJsSquare,
+    FaCss3,
 } from 'react-icons/fa'
 
 import { Link } from 'react-router-dom'
@@ -40,11 +40,11 @@ function Home() {
                         </div>
                         <div className="face2">
                             {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
-                            <faHtml5 color="#F06529" />
+                            <FaHtml5 color="#F06529" />
                         </div>
                         <div className="face3">
                             {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
-                            <faCss3 color="#28A4D9" />
+                            <FaCss3 color="#28A4D9" />
                         </div>
                         <div className="face4">
                             {/* <FontAwesomeIcon
@@ -52,7 +52,7 @@ function Home() {
                                 icon={faJsSquare}
                                 color="#5ED4F4"
                             /> */}
-                            <faJsSquare color="#5ED4F4" />
+                            <FaJsSquare color="#5ED4F4" />
                         </div>
                         <div className="face5">
                             {/* <FontAwesomeIcon icon={faReact} color="#EFD81D" /> */}
@@ -64,7 +64,7 @@ function Home() {
                                 icon={faJsSquare}
                                 color="#EC4D28"
                             /> */}
-                            <faJsSquare color="#5ED4F4" />
+                            <FaJsSquare color="#5ED4F4" />
                         </div>
                     </div>
                 </div>
