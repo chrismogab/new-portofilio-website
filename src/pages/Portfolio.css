@@ -336,12 +336,12 @@ a:hover {
     }
     .icons {
         margin-top: 39%;
-        margin-left: 26%;
+        margin-left: 23%;
         gap: 30px;
     }
     .projects-button {
         position: absolute;
-        right: 20%;
+        right: 23%;
         bottom: -5%;
     }
 }
