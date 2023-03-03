@@ -98,7 +98,7 @@ function About() {
                             <a
                                 target="_blank"
                                 rel="noreferrer"
-                                href="https://github.com/chrismogab"
+                                href="discord:live:chrismogab#3196"
                             >
                                 <FaDiscord />
                             </a>
