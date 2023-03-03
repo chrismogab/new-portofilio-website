@@ -26,7 +26,7 @@ export const NavBarData = [
     {
         title: 'Projects',
         path: '/Projects',
-        icon: <FaIcons.FaEnvelope />,
+        icon: <FaIcons.FaBook />,
         className: 'nav-text',
     },
     {
