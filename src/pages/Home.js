@@ -2,17 +2,27 @@ import React from 'react'
 import './Home.css'
 import Loader from 'react-loaders'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {
+//     faAngular,
+//     faCss3,
+//     faGit,
+//     faGitAlt,
+//     faHtml5,
+//     faJs,
+//     faJsSquare,
+//     faReact,
+// } from '@fortawesome/free-brands-svg-icons'
 import {
-    faAngular,
-    faCss3,
-    faGit,
-    faGitAlt,
-    faHtml5,
-    faJs,
+    FaGithub,
+    FaLinkedin,
+    FaDiscord,
+    FaHtml5,
+    FaReact,
     faJsSquare,
-    faReact,
-} from '@fortawesome/free-brands-svg-icons'
+    faCss3,
+} from 'react-icons/fa'
+
 import { Link } from 'react-router-dom'
 
 function Home() {
@@ -25,28 +35,36 @@ function Home() {
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faReact} color="#DD0031" />
+                            {/* <FontAwesomeIcon icon={faReact} color="#DD0031" /> */}
+                            <FaReact color="#DD0031" />
                         </div>
                         <div className="face2">
-                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
+                            <faHtml5 color="#F06529" />
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
+                            <faCss3 color="#28A4D9" />
                         </div>
                         <div className="face4">
-                            <FontAwesomeIcon
+                            {/* <FontAwesomeIcon
+                        
                                 icon={faJsSquare}
                                 color="#5ED4F4"
-                            />
+                            /> */}
+                            <faJsSquare color="#5ED4F4" />
                         </div>
                         <div className="face5">
-                            <FontAwesomeIcon icon={faReact} color="#EFD81D" />
+                            {/* <FontAwesomeIcon icon={faReact} color="#EFD81D" /> */}
+                            <FaReact color="#DD0031" />
                         </div>
+
                         <div className="face6">
-                            <FontAwesomeIcon
+                            {/* <FontAwesomeIcon
                                 icon={faJsSquare}
                                 color="#EC4D28"
-                            />
+                            /> */}
+                            <faJsSquare color="#5ED4F4" />
                         </div>
                     </div>
                 </div>
