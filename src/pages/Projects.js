@@ -56,7 +56,11 @@ function Projects() {
                             <strong>
                                 Link to Code: <br />
                             </strong>
-                            <a href="https://github.com/chrismogab/Real-time-data">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/chrismogab/Real-time-data"
+                            >
                                 https://github.com/chrismogab/Real-time-data
                             </a>{' '}
                         </li>
@@ -90,7 +94,11 @@ function Projects() {
                             <strong>
                                 Link to Code: <br />
                             </strong>
-                            <a href="https://github.com/chrismogab/DAF-Front-End">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/chrismogab/DAF-Front-End"
+                            >
                                 https://github.com/chrismogab/DAF-Front-End
                             </a>{' '}
                         </li>
@@ -122,7 +130,11 @@ function Projects() {
                             <strong>
                                 Link to Code: <br />
                             </strong>
-                            <a href="https://github.com/chrismogab/Front-End-random-website">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/chrismogab/Front-End-random-website"
+                            >
                                 https://github.com/chrismogab/Front-End-random-website
                             </a>{' '}
                         </li>
@@ -156,9 +168,19 @@ function Projects() {
                             <strong>
                                 Link to Code: <br />
                             </strong>
-                            <a href="https://github.com/chrismogab/Front-End-random-website">
-                                https://github.com/chrismogab/Full-Stack-Node.js-ReactJS-MySQL-BACK-END-{' '}
-                                <br />
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/chrismogab/Full-Stack-Node.js-ReactJS-MySQL-BACK-END-"
+                            >
+                                https://github.com/chrismogab/Full-Stack-Node.js-ReactJS-MySQL-BACK-END-
+                            </a>{' '}
+                            <br />
+                            <a
+                                // target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/chrismogab/Full-Stack-Node.js-ReactJS-MySQL-FRONTEND-"
+                            >
                                 https://github.com/chrismogab/Full-Stack-Node.js-ReactJS-MySQL-FRONTEND-
                             </a>{' '}
                         </li>
