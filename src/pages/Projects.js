@@ -10,6 +10,9 @@ import token_3 from '../images/token-andr-3.jpg'
 import movie_1 from '../images/movie-1.jpg'
 import movie_2 from '../images/movie-2.jpg'
 import movie_3 from '../images/movie-3.jpg'
+import mySql_1 from '../images/mysql-1.jpg'
+import mySql_2 from '../images/mysql-2.jpg'
+import mySql_3 from '../images/mysql-3.jpg'
 
 function Projects() {
     return (
@@ -114,6 +117,40 @@ function Projects() {
                             <strong>Tech-Stacks used:</strong>
                             <br />
                             ReactJS, Javascript, HTML, CSS, Redux
+                        </li>
+                        <li>
+                            <strong>
+                                Link to Code: <br />
+                            </strong>
+                            <a href="https://github.com/chrismogab/Front-End-random-website">
+                                https://github.com/chrismogab/Front-End-random-website
+                            </a>{' '}
+                        </li>
+                    </ul>
+                </div>{' '}
+                <div className="seventh-div">
+                    <img className="mysql-1" src={mySql_1} alt="photo-10" />
+                    <img className="mysql-2" src={mySql_2} alt="photo-11" />
+                </div>
+                <div className="eighth-div">
+                    <img className="mysql-3" src={mySql_3} alt="photo-12" />
+                    <ul className="parag-4">
+                        <li>
+                            <strong>About:</strong>
+                            <br />
+                            This project is still in action. I am working on a
+                            portfolio to prove my full-stack skills using JS. I
+                            created a table for users to insert info and I get
+                            the info at the backend using MySQL database.The
+                            users have access to create a new contact, as well
+                            as edit, delete and view contacts. I keep track on
+                            every action being done on mysql workbench
+                        </li>
+                        <li>
+                            <strong>Tech-Stacks used:</strong>
+                            <br />
+                            ReactJS, Javascript, HTML, CSS, MySQL, Node.js,
+                            express
                         </li>
                         <li>
                             <strong>
