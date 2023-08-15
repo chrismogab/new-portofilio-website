@@ -31,22 +31,22 @@ function Home() {
 
     return (
         <>
-            <div>
+            <div data-testid="home-page">
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
-                        <div className="face1">
+                        <div className="face1" data-testid="react-icon">
                             {/* <FontAwesomeIcon icon={faReact} color="#DD0031" /> */}
                             <FaReact color="#DD0031" />
                         </div>
-                        <div className="face2">
+                        <div className="face2" data-testid="html-icon">
                             {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
                             <FaHtml5 color="#F06529" />
                         </div>
-                        <div className="face3">
+                        <div className="face3" data-testid="css-icon">
                             {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
                             <FaCss3 color="#28A4D9" />
                         </div>
-                        <div className="face4">
+                        <div className="face4" data-testid="js-icon">
                             {/* <FontAwesomeIcon
                         
                                 icon={faJsSquare}
@@ -54,12 +54,12 @@ function Home() {
                             /> */}
                             <FaJsSquare color="#5ED4F4" />
                         </div>
-                        <div className="face5">
+                        <div className="face5" data-testid="react-icon-2">
                             {/* <FontAwesomeIcon icon={faReact} color="#EFD81D" /> */}
                             <FaReact color="#DD0031" />
                         </div>
 
-                        <div className="face6">
+                        <div className="face6" data-testid="js-icon-2">
                             {/* <FontAwesomeIcon
                                 icon={faJsSquare}
                                 color="#EC4D28"
@@ -74,15 +74,25 @@ function Home() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className="code-button">Website Code</button>
+                        <button
+                            className="code-button"
+                            data-testid="website-code-button"
+                        >
+                            Website Code
+                        </button>
                     </a>
                     <Link to="/Portfolio">
-                        <button className="portfolio-button">PORTFOLIO</button>
+                        <button
+                            className="portfolio-button"
+                            data-testid="portfolio-button"
+                        >
+                            PORTFOLIO
+                        </button>
                     </Link>
                 </div>
             </div>
 
-            <Loader type="ball-grid-pulse" />
+            <Loader type="ball-grid-pulse" data-testid="loader" />
         </>
     )
 }

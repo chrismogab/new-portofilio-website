@@ -12,7 +12,7 @@ export const NavBarData = [
     //     className: 'nav-text',
     // },
     {
-        title: 'Home',
+        title: 'Home', 
         path: '/',
         icon: <AiIcons.AiFillHome />,
         className: 'nav-text',
