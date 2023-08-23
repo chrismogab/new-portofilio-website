@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import LinkedinPhoto from '../images/chris-linkedin-photo.jpg'
 import './Portfolio.css'
 import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa'
-import Resume from '../images/Christopher_Moghabghab_Resume_dev_final.pdf'
+import Resume from '../images/Christopher_Moghabghab_Resume_dev.pdf'
 import { Link } from 'react-router-dom'
 
 function About() {
